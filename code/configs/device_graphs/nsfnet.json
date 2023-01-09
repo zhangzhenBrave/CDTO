@@ -1,0 +1,4328 @@
+{
+    "comm_channels": [
+        {
+            "type": "AWS",
+            "bandwidth": 1
+        },
+        {
+            "type": "AWS",
+            "bandwidth": 1
+        },
+        {
+            "type": "AWS",
+            "bandwidth": 1
+        },
+        {
+            "type": "AWS",
+            "bandwidth": 1
+        },
+        {
+            "type": "AWS",
+            "bandwidth": 1
+        },
+        {
+            "type": "AWS",
+            "bandwidth": 1
+        },
+        {
+            "type": "AWS",
+            "bandwidth": 1
+        },
+        {
+            "type": "AWS",
+            "bandwidth": 1
+        },
+        {
+            "type": "AWS",
+            "bandwidth": 1
+        },
+        {
+            "type": "AWS",
+            "bandwidth": 1
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        },
+        {
+            "type": "Ethernet",
+            "bandwidth": 5
+        }
+    ],
+    "devices": [
+        {
+            "model": "CPU i7 4770K",
+            "clock": 136000,
+            "peak_gflops": 206.0,
+            "memory": 32,
+            "mem_bandwidth": 68.0,
+            "type": "cpu",
+             "relate": 10,
+            "neighbours": [
+                {
+                    "comm_channel": 0,
+                    "hop": 0,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 2,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 2,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 4,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 4,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 4,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 5,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 5,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 6,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 6,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 1,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 3,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 4,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 5,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 2,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 2,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 3,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 3,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 4,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 4,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 4,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 3,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 4,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 5,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 4,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 5,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 5,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 0,
+                    "hop": 5,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "CPU i7 5930K",
+            "clock": 210000,
+            "peak_gflops": 289.0,
+            "memory": 32,
+            "mem_bandwidth": 68.0,
+            "type": "cpu",
+             "relate": 10,
+            "neighbours": [
+                {
+                    "comm_channel": 1,
+                    "hop": 2,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 0,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 2,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 4,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 4,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 4,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 5,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 5,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 6,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 6,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 1,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 3,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 4,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 5,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 2,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 2,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 3,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 3,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 4,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 4,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 4,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 3,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 4,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 5,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 4,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 5,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 5,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 1,
+                    "hop": 5,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "CPU i7 5930K",
+            "clock": 210000,
+            "peak_gflops": 289.0,
+            "memory": 32,
+            "mem_bandwidth": 68.0,
+            "type": "cpu",
+             "relate": 10,
+            "neighbours": [
+                {
+                    "comm_channel": 2,
+                    "hop": 2,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 2,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 0,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 4,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 4,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 4,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 5,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 5,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 6,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 6,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 1,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 3,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 4,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 5,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 2,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 2,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 3,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 3,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 4,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 4,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 4,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 3,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 4,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 5,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 4,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 5,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 5,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 2,
+                    "hop": 5,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "CPU i7 4770K",
+            "clock": 136000,
+            "peak_gflops": 206.0,
+            "memory": 32,
+            "mem_bandwidth": 68.0,
+            "type": "cpu",
+             "relate": 11,
+            "neighbours": [
+                {
+                    "comm_channel": 3,
+                    "hop": 4,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 4,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 4,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 0,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 2,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 2,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 5,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 5,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 6,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 6,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 3,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 1,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 4,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 5,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 3,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 2,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 3,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 3,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 4,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 4,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 5,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 4,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 5,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 5,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 4,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 5,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 5,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 3,
+                    "hop": 5,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "CPU i7 5930K",
+            "clock": 210000,
+            "peak_gflops": 289.0,
+            "memory": 32,
+            "mem_bandwidth": 68.0,
+            "type": "cpu",
+            "relate": 11,
+            "neighbours": [
+                {
+                    "comm_channel": 4,
+                    "hop": 4,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 4,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 4,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 2,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 0,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 2,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 5,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 5,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 6,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 6,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 3,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 1,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 4,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 5,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 3,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 2,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 3,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 3,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 4,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 4,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 5,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 4,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 5,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 5,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 4,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 5,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 5,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 4,
+                    "hop": 5,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "CPU i7 4770K",
+            "clock": 136000,
+            "peak_gflops": 206.0,
+            "memory": 32,
+            "mem_bandwidth": 68.0,
+            "type": "cpu",
+            "relate": 11,
+            "neighbours": [
+                {
+                    "comm_channel": 5,
+                    "hop": 4,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 4,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 4,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 2,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 2,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 0,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 5,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 5,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 6,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 6,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 3,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 1,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 4,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 5,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 3,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 2,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 3,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 3,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 4,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 4,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 5,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 4,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 5,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 5,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 4,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 5,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 5,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 5,
+                    "hop": 5,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "CPU i7 4770K",
+            "clock": 136000,
+            "peak_gflops": 206.0,
+            "memory": 32,
+            "mem_bandwidth": 68.0,
+            "type": "cpu",
+            "relate": 12,
+            "neighbours": [
+                {
+                    "comm_channel": 6,
+                    "hop": 5,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 5,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 5,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 5,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 5,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 5,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 0,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 2,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 5,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 5,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 4,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 4,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 1,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 4,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 3,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 3,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 2,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 4,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 4,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 3,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 5,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 4,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 5,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 4,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 5,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 5,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 4,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 6,
+                    "hop": 5,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "CPU i7 5930K",
+            "clock": 210000,
+            "peak_gflops": 289.0,
+            "memory": 32,
+            "mem_bandwidth": 68.0,
+            "type": "cpu",
+            "relate": 12,
+            "neighbours": [
+                {
+                    "comm_channel": 7,
+                    "hop": 5,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 5,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 5,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 5,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 5,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 5,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 2,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 0,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 5,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 5,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 4,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 4,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 1,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 4,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 3,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 3,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 2,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 4,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 4,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 3,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 5,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 4,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 5,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 4,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 5,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 5,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 4,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 7,
+                    "hop": 5,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "CPU i7 5930K",
+            "clock": 210000,
+            "peak_gflops": 289.0,
+            "memory": 32,
+            "mem_bandwidth": 68.0,
+            "type": "cpu",
+            "relate": 13,
+            "neighbours": [
+                {
+                    "comm_channel": 8,
+                    "hop": 6,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 6,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 6,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 6,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 6,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 6,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 5,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 5,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 0,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 2,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 5,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 5,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 4,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 1,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 4,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 4,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 3,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 4,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 3,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 2,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 4,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 5,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 4,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 3,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 5,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 4,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 3,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 8,
+                    "hop": 4,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "CPU i7 5930K",
+            "clock": 210000,
+            "peak_gflops": 289.0,
+            "memory": 32,
+            "mem_bandwidth": 68.0,
+            "type": "cpu",
+            "relate": 13,
+            "neighbours": [
+                {
+                    "comm_channel": 9,
+                    "hop": 6,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 6,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 6,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 6,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 6,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 6,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 5,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 5,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 2,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 0,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 5,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 5,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 4,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 1,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 4,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 4,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 3,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 4,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 3,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 2,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 4,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 5,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 4,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 3,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 5,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 4,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 3,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 9,
+                    "hop": 4,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "K40",
+            "clock": 745,
+            "peak_gflops": 4290.0,
+            "memory": 12,
+            "mem_bandwidth": 288.0,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 10,
+                    "hop": 1,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 1,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 1,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 3,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 3,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 3,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 4,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 4,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 5,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 5,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 0,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 2,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 3,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 4,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 1,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 1,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 2,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 2,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 3,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 3,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 3,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 2,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 3,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 4,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 3,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 4,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 4,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 10,
+                    "hop": 4,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "K80",
+            "clock": 560,
+            "peak_gflops": 5600.0,
+            "memory": 12,
+            "mem_bandwidth": 480.0,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 11,
+                    "hop": 3,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 3,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 3,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 1,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 1,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 1,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 4,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 4,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 5,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 5,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 2,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 0,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 3,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 4,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 2,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 1,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 2,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 2,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 3,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 3,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 4,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 3,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 4,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 4,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 3,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 4,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 4,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 11,
+                    "hop": 4,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "Titan X",
+            "clock": 1000,
+            "peak_gflops": 6144.0,
+            "memory": 12,
+            "mem_bandwidth": 336.5,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 12,
+                    "hop": 4,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 4,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 4,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 4,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 4,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 4,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 1,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 1,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 4,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 4,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 3,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 3,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 0,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 3,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 2,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 2,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 1,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 3,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 3,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 2,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 4,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 3,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 4,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 3,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 4,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 4,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 3,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 12,
+                    "hop": 4,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "Titan X",
+            "clock": 1000,
+            "peak_gflops": 6144.0,
+            "memory": 12,
+            "mem_bandwidth": 336.5,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 13,
+                    "hop": 5,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 5,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 5,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 5,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 5,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 5,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 4,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 4,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 1,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 1,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 4,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 4,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 3,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 0,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 3,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 3,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 2,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 3,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 2,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 1,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 3,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 4,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 3,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 2,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 4,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 3,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 2,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 13,
+                    "hop": 3,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "K20",
+            "clock": 1000,
+            "peak_gflops": 3520.0,
+            "memory": 12,
+            "mem_bandwidth": 208.0,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 14,
+                    "hop": 2,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 2,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 2,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 3,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 3,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 3,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 3,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 3,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 4,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 4,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 1,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 2,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 2,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 3,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 0,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 1,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 1,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 2,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 3,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 2,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 2,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 1,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 2,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 3,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 3,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 3,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 3,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 14,
+                    "hop": 3,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "Titan X",
+            "clock": 1000,
+            "peak_gflops": 6144.0,
+            "memory": 12,
+            "mem_bandwidth": 336.5,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 15,
+                    "hop": 2,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 2,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 2,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 2,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 2,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 2,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 3,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 3,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 4,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 4,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 1,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 1,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 2,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 3,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 1,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 0,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 1,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 1,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 2,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 2,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 3,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 2,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 3,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 3,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 2,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 3,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 3,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 15,
+                    "hop": 3,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "K20",
+            "clock": 1000,
+            "peak_gflops": 3520.0,
+            "memory": 12,
+            "mem_bandwidth": 208.0,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 16,
+                    "hop": 3,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 3,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 3,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 3,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 3,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 3,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 2,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 2,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 3,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 3,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 2,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 2,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 1,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 2,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 1,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 1,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 0,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 2,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 2,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 1,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 3,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 2,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 3,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 2,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 3,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 3,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 2,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 16,
+                    "hop": 3,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "Titan X",
+            "clock": 1000,
+            "peak_gflops": 6144.0,
+            "memory": 12,
+            "mem_bandwidth": 336.5,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 17,
+                    "hop": 3,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 3,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 3,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 3,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 3,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 3,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 4,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 4,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 4,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 4,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 2,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 2,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 3,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 3,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 2,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 1,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 2,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 0,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 1,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 2,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 2,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 3,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 3,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 3,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 1,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 2,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 3,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 17,
+                    "hop": 2,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "K40",
+            "clock": 745,
+            "peak_gflops": 4290.0,
+            "memory": 12,
+            "mem_bandwidth": 288.0,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 18,
+                    "hop": 4,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 4,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 4,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 4,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 4,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 4,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 4,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 4,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 3,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 3,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 3,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 3,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 3,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 2,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 3,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 2,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 2,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 1,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 0,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 1,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 1,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 2,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 3,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 2,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 2,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 3,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 2,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 18,
+                    "hop": 3,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "K40",
+            "clock": 745,
+            "peak_gflops": 4290.0,
+            "memory": 12,
+            "mem_bandwidth": 288.0,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 19,
+                    "hop": 4,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 4,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 4,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 4,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 4,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 4,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 3,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 3,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 2,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 2,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 3,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 3,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 2,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 1,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 2,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 2,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 1,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 2,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 1,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 0,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 2,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 3,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 2,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 1,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 3,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 2,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 1,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 19,
+                    "hop": 2,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "K80",
+            "clock": 560,
+            "peak_gflops": 5600.0,
+            "memory": 12,
+            "mem_bandwidth": 480.0,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 20,
+                    "hop": 4,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 4,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 4,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 5,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 5,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 5,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 5,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 5,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 4,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 4,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 3,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 4,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 4,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 3,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 2,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 3,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 3,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 2,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 1,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 2,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 0,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 1,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 2,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 3,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 3,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 3,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 3,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 20,
+                    "hop": 3,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "K40",
+            "clock": 745,
+            "peak_gflops": 4290.0,
+            "memory": 12,
+            "mem_bandwidth": 288.0,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 21,
+                    "hop": 3,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 3,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 3,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 4,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 4,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 4,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 4,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 4,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 5,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 5,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 2,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 3,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 3,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 4,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 1,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 2,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 2,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 3,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 2,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 3,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 1,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 0,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 1,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 2,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 3,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 2,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 3,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 21,
+                    "hop": 2,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "K20X",
+            "clock": 1000,
+            "peak_gflops": 3935.0,
+            "memory": 12,
+            "mem_bandwidth": 250.0,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 22,
+                    "hop": 4,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 4,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 4,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 5,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 5,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 5,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 5,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 5,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 4,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 4,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 3,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 4,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 4,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 3,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 2,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 3,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 3,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 3,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 3,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 2,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 2,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 1,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 0,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 1,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 2,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 1,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 2,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 22,
+                    "hop": 1,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "Titan X",
+            "clock": 1000,
+            "peak_gflops": 6144.0,
+            "memory": 12,
+            "mem_bandwidth": 336.5,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 23,
+                    "hop": 5,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 5,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 5,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 5,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 5,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 5,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 4,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 4,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 3,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 3,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 4,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 4,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 3,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 2,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 3,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 3,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 2,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 3,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 2,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 1,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 3,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 2,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 1,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 0,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 3,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 2,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 2,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 23,
+                    "hop": 2,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "K80",
+            "clock": 560,
+            "peak_gflops": 5600.0,
+            "memory": 12,
+            "mem_bandwidth": 480.0,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 24,
+                    "hop": 4,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 4,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 4,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 4,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 4,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 4,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 5,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 5,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 5,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 5,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 3,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 3,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 4,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 4,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 3,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 2,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 3,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 1,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 2,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 3,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 3,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 3,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 2,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 3,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 0,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 1,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 2,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 24,
+                    "hop": 1,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "K20",
+            "clock": 1000,
+            "peak_gflops": 3520.0,
+            "memory": 12,
+            "mem_bandwidth": 208.0,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 25,
+                    "hop": 5,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 5,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 5,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 5,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 5,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 5,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 5,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 5,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 4,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 4,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 4,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 4,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 4,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 3,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 3,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 3,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 3,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 2,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 3,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 2,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 3,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 2,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 1,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 2,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 1,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 0,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 1,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 25,
+                    "hop": 2,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "K40",
+            "clock": 745,
+            "peak_gflops": 4290.0,
+            "memory": 12,
+            "mem_bandwidth": 288.0,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 26,
+                    "hop": 5,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 5,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 5,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 5,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 5,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 5,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 4,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 4,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 3,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 3,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 4,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 4,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 3,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 2,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 3,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 3,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 2,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 3,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 2,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 1,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 3,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 3,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 2,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 2,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 2,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 1,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 0,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 26,
+                    "hop": 1,
+                    "device": 27
+                }
+            ]
+        },
+        {
+            "model": "V100",
+            "clock": 1530,
+            "peak_gflops": 15700.0,
+            "memory": 12,
+            "mem_bandwidth": 900.0,
+            "type": "gpu",
+            "neighbours": [
+                {
+                    "comm_channel": 27,
+                    "hop": 5,
+                    "device": 0
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 5,
+                    "device": 1
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 5,
+                    "device": 2
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 5,
+                    "device": 3
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 5,
+                    "device": 4
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 5,
+                    "device": 5
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 5,
+                    "device": 6
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 5,
+                    "device": 7
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 4,
+                    "device": 8
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 4,
+                    "device": 9
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 4,
+                    "device": 10
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 4,
+                    "device": 11
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 4,
+                    "device": 12
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 3,
+                    "device": 13
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 3,
+                    "device": 14
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 3,
+                    "device": 15
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 3,
+                    "device": 16
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 2,
+                    "device": 17
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 3,
+                    "device": 18
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 2,
+                    "device": 19
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 3,
+                    "device": 20
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 2,
+                    "device": 21
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 1,
+                    "device": 22
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 2,
+                    "device": 23
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 1,
+                    "device": 24
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 2,
+                    "device": 25
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 1,
+                    "device": 26
+                },
+                {
+                    "comm_channel": 27,
+                    "hop": 0,
+                    "device": 27
+                }
+            ]
+        }
+    ]
+}
