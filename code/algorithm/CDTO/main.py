@@ -87,40 +87,40 @@ def four_schemes(parse):
          ########################################################
 
         #ergodic  scheme#######################################################
-        # optimizer = GAOptimizer(plot_fitness_history=True,
-        #                         generations= 2000,
-        #                         population_size= 100,
-        #                         mutation_rate=0.8,
-        #                         zone_mutation_rate=0.2,
-        #                         mutation_sharding_rate=0,
-        #                         crossover_rate=0.8,
-        #                         crossover_type="1-point",
-        #                         parent_selection_mechanism="rank",
-        #                         evolve_mutation_rate=True,
-        #                         verbose=5,
-        #                         elite_size=5,
-        #                         max_mutation_rate=0.9,
-        #                         min_mutation_rate=0.05,
-        #                         print_diversity=True,
-        #                         include_trivial_solutions_in_initialization=False,
-        #                         allow_cpu= True,
-        #                         pipeline_batches=2,
-        #                         batches=10,
-        #                         n_threads=-1,
-        #                         checkpoint_period=5,
-        #                         simulator_comp_penalty=0.9,
-        #                         simulator_comm_penalty=0.25)
-        # best_solution, best_placement =optimizer.optimize(net_len=127-2,
-        #                                 task_num=parse.num,
-        #                                 n_devices=len(device_graph.devices),
-        #                                 task_iner_priority=task_iner_priority,
-        #                                 device_graph=device_graph,
-        #                                 task_unit=task_unit)
-        # print(best_solution)
-        # print(best_placement)
-        #
-        #
-        # print("##############################")
+        optimizer = GAOptimizer(plot_fitness_history=True,
+                                generations= 2000,
+                                population_size= 100,
+                                mutation_rate=0.8,
+                                zone_mutation_rate=0.2,
+                                mutation_sharding_rate=0,
+                                crossover_rate=0.8,
+                                crossover_type="1-point",
+                                parent_selection_mechanism="rank",
+                                evolve_mutation_rate=True,
+                                verbose=5,
+                                elite_size=5,
+                                max_mutation_rate=0.9,
+                                min_mutation_rate=0.05,
+                                print_diversity=True,
+                                include_trivial_solutions_in_initialization=False,
+                                allow_cpu= True,
+                                pipeline_batches=2,
+                                batches=10,
+                                n_threads=-1,
+                                checkpoint_period=5,
+                                simulator_comp_penalty=0.9,
+                                simulator_comm_penalty=0.25)
+        best_solution, best_placement =optimizer.optimize(net_len=127-2,
+                                        task_num=parse.num,
+                                        n_devices=len(device_graph.devices),
+                                        task_iner_priority=task_iner_priority,
+                                        device_graph=device_graph,
+                                        task_unit=task_unit)
+        print(best_solution)
+        print(best_placement)
+
+
+        print("##############################")
 
 
 
